@@ -1,0 +1,113 @@
+/* Reset */
+*  {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Estilo para o header */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+ .top-div { 
+  display: flex;
+  align-items: start;
+  width: 100%;
+
+ }
+.top-div img {
+  width: 3rem ;
+  margin: .5rem;
+
+}
+
+.main-title {
+  padding: 1.5rem;
+  font-size: 4rem;
+  color: rgb(25, 96, 55);
+
+}
+/* Estilo para o input de busca */
+#searchInput {  
+  width: 60%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+
+.img-b {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.img-b img {
+width: 40%;
+}
+
+/* Estilo para a lista de personagens usando CSS Grid */
+#charactersList {
+  display: grid;
+  
+  width: 80vw;
+  max-height: 50%;
+
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+/* Estilo para os cards dos personagens */
+.character-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  
+  
+}
+
+.character-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilo para a paginação */
+#pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#pagination button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #2f2d2d;
+  border: 1px solid #212121;
+  color: #ccc;
+  border-radius: 3px;
+}
+
+#pagination {
+  justify-content: center;
+}
+ 
+.main-footer {
+  background-color: black;
+  width: 100%;
+  height: 50vh;
+  padding: 40px;
+  align-items: center;
+
+}
+
+
+
+
+
+
